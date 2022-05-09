@@ -2,7 +2,7 @@
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/wam`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
+A Ruby Implementation of Warren's Abstract Machine, as described by the work entitled "Warren's Abstract Machine: A Tutorial Reconstruction." (WAMATR)
 
 ## Installation
 
@@ -22,7 +22,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+There are not, as yet, anything other than rspec tests to exercise the code.  Once a sufficient number of WAM primitives have been implemented, a console app will be made available.
+
+The point of this project is to implement the various levels of language coverage and machine abstractions outlined in the WAMATR document, as part of understanding the general operation and principles in login programming that WAM embodies.
+
+The code refers to Lx, Mx, and Ix.  L0, L1, ... represent the various language implementations, such as basic clauses, terms, etc.  M0, M1, ... represent the abstract machine implementations for L0, L1, ..., respectively.  The modules I0, I1, ... implement the instruction sets for the various machines M0, M1, ... respectively.  There are some breaking changes in the evolution of the languages, instruction sets, and machines that should be accommodated.  They are identified where they are known to exist.
+
+This is a work-in-progress, so please don't depend on ANYTHING in this project at this point.
 
 ## Development
 
