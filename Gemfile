@@ -16,4 +16,3 @@ gem "simplecov", require: false, group: :test
 
 gem "simplecov-lcov", "~> 0.8.0"
 
-gem "brakeman", "~> 5.2"
