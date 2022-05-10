@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description   = "An implementation of a tutorial reconstruction of Warren's Abstract Machine (WAM)."
   spec.homepage      = "https://www.github.com/raels/wam"
   spec.license       = "MIT"
-  spec.required_ruby_version = ">= 2.4.0"
+  spec.required_ruby_version = ">= 3.0"
 
   #spec.metadata["allowed_push_host"] = "TODO: Set to 'https://mygemserver.com'"
 
@@ -31,6 +31,7 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
+  spec.add_development_dependency "solargraph"
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html
