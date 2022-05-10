@@ -2,7 +2,7 @@
 
 require_relative "wam/version"
 
+# WAM -- Warren's Abstract Machine tutorial reconstruction (placeholder)
 module Wam
-  class Error < StandardError; end
   # Your code goes here...
 end

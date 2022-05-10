@@ -17,6 +17,7 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
+    kwalify (0.7.2)
     nokogiri (1.13.3-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.13.3-x86_64-linux)
@@ -27,6 +28,10 @@ GEM
     racc (1.6.0)
     rainbow (3.1.1)
     rake (13.0.6)
+    reek (6.1.1)
+      kwalify (~> 0.7.0)
+      parser (~> 3.1.0)
+      rainbow (>= 2.0, < 4.0)
     regexp_parser (2.3.1)
     reverse_markdown (2.1.1)
       nokogiri
@@ -95,6 +100,7 @@ PLATFORMS
 
 DEPENDENCIES
   rake (~> 13.0)
+  reek (~> 6.1)
   rspec (~> 3.0)
   rubocop (~> 1.7)
   rubocop-rake

@@ -16,3 +16,5 @@ gem "simplecov", require: false, group: :test
 
 gem "simplecov-lcov", "~> 0.8.0"
 
+
+gem "reek", "~> 6.1"
