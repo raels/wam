@@ -1,19 +1,22 @@
 # Wam
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/wam`. To experiment with that code, run `bin/console` for an interactive prompt.
-
 A Ruby Implementation of Warren's Abstract Machine, as described by the work entitled "Warren's Abstract Machine: A Tutorial Reconstruction." (WAMATR)
 
 
-![Build Status](https://github.com/raels/wam/actions/workflows/main.yml/badge.svg)
+![Build Status](https://github.com/raels/wam/actions/workflows/main.yml/badge.svg)  [![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop)  [![Ruby Style Guide](https://img.shields.io/badge/code_style-community-brightgreen.svg)](https://rubystyle.guide)
+
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line to your application's Gemfile using your favorite editor:
 
 ```ruby
 gem 'wam'
 ```
+
+or add it from the command line with:
+
+    $ bundle add wam
 
 And then execute:
 
