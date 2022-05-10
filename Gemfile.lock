@@ -10,6 +10,7 @@ GEM
     backport (1.2.0)
     benchmark (0.2.0)
     diff-lcs (1.5.0)
+    docile (1.4.0)
     e2mmap (0.1.0)
     jaro_winkler (1.5.4)
     kramdown (2.3.2)
@@ -59,6 +60,12 @@ GEM
     rubocop-rspec (2.10.0)
       rubocop (~> 1.19)
     ruby-progressbar (1.11.0)
+    simplecov (0.21.2)
+      docile (~> 1.1)
+      simplecov-html (~> 0.11)
+      simplecov_json_formatter (~> 0.1)
+    simplecov-html (0.12.3)
+    simplecov_json_formatter (0.1.4)
     solargraph (0.44.3)
       backport (~> 1.2)
       benchmark
@@ -91,6 +98,7 @@ DEPENDENCIES
   rubocop (~> 1.7)
   rubocop-rake
   rubocop-rspec
+  simplecov
   solargraph
   wam!
 
