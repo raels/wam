@@ -4,6 +4,9 @@ Welcome to your new gem! In this directory, you'll find the files you need to be
 
 A Ruby Implementation of Warren's Abstract Machine, as described by the work entitled "Warren's Abstract Machine: A Tutorial Reconstruction." (WAMATR)
 
+
+![Build Status](https://github.com/raels/wam/actions/workflows/main.yml/badge.svg)
+
 ## Installation
 
 Add this line to your application's Gemfile:
