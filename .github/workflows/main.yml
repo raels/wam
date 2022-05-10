@@ -20,6 +20,7 @@ jobs:
         bundle exec rubocop --format github
         bundle exec rake spec
     - name: Handle Coverage Results
-      uses: aki77/simplecov-report-action@v1
+      uses: romeovs/lcov-reporter-action@v0.2.16
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        lcov-file: ./coverage/lcov/ruby-simplecov.lcov
+        github-token: ${{ secrets.GITHUB_TOKEN }}
