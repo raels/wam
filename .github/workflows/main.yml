@@ -12,9 +12,33 @@ jobs:
       with:
         ruby-version: 3.0.2
         bundler-cache: true
-    - name: Run the default task
+    - name: Run Specs
       run: |
         gem install bundler
         bundle install
         bundle exec rubocop --format github
         bundle exec rake spec
+    - name: Upload coverage results
+      uses: actions/upload-artifact@v2
+      with: 
+        name: coverage-report
+        path: coverage
+
+  coverage:
+    runs-on: ubuntu-latest
+
+    # This line will only run the coverage job if the test job passed
+    needs: build
+
+    steps:
+    - name: Download coverage report
+      uses: actions/download-artifact@v2
+      with:
+        name: coverage-report
+        path: coverage
+
+    - name: Check coverage
+      uses: vigetlabs/simplecov-check@v1.0
+      with:
+        minimum_coverage: 90
+        coverage_path: coverage/.last_run.json
