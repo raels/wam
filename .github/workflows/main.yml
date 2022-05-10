@@ -20,6 +20,6 @@ jobs:
         bundle exec rubocop --format github
         bundle exec rake spec
     - name: Handle Coverage Results
-      uses: joshmfrankel/simplecov-check-action@main
+      uses: aki77/simplecov-report-action@v1
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.GITHUB_TOKEN }}
