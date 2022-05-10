@@ -22,5 +22,4 @@ jobs:
     - name: Handle Coverage Results
       uses: joshmfrankel/simplecov-check-action@main
       with:
-        minimum_coverage: 85
         github_token: ${{ secrets.GITHUB_TOKEN }}
