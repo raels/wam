@@ -15,7 +15,5 @@ gem "rubocop-rspec", require: false
 
 gem "reek", "~> 6.1", require: false
 
-group :test do
-  gem "simplecov", require: false
-  gem "simplecov-lcov", "~> 0.8.0", require: false
-end
+gem "simplecov", require: false
+gem "simplecov-lcov", "~> 0.8.0", require: false

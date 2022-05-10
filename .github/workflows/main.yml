@@ -30,4 +30,7 @@ jobs:
         CC_TEST_REPORTER_ID: 0d8044083e4c65d9d0e868cd981c5ed1fb9cd98b5623ba15b658c6bacae45d87
       with:
         coverageCommand: bundle exec rake spec
+        coverageLocations: |
+          ${{github.workspace}}/coverage/*.lcov:lcov
+        debug: true
 
