@@ -13,4 +13,7 @@ jobs:
         ruby-version: 3.0.2
         bundler-cache: true
     - name: Run the default task
-      run: bundle exec rake
+      run: |
+        gem install bundler
+        bundle install
+        bundle exec rake spec
