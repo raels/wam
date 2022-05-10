@@ -19,8 +19,13 @@ jobs:
         bundle install
         bundle exec rubocop --format github
         bundle exec rake spec
-    - name: Handle Coverage Results
-      uses: romeovs/lcov-reporter-action@v0.2.16
-      with:
-        lcov-file: ./coverage/lcov/wam.lcov
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+    # - name: Handle Coverage Results
+    #   uses: romeovs/lcov-reporter-action@v0.2.16
+    #   with:
+    #     lcov-file: ./coverage/lcov/wam.lcov
+    #     github-token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Publish code coverage
+      uses: paambaati/codeclimate-action@v3.0.0
+      env:
+        CC_TEST_REPORTER_ID: 0d8044083e4c65d9d0e868cd981c5ed1fb9cd98b5623ba15b658c6bacae45d87
+
