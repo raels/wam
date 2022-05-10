@@ -22,5 +22,5 @@ jobs:
     - name: Handle Coverage Results
       uses: romeovs/lcov-reporter-action@v0.2.16
       with:
-        lcov-file: ./coverage/lcov/ruby-simplecov.lcov
+        lcov-file: ./coverage/lcov/wam.lcov
         github-token: ${{ secrets.GITHUB_TOKEN }}
