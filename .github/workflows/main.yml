@@ -16,4 +16,5 @@ jobs:
       run: |
         gem install bundler
         bundle install
+        bundle exec rubocop --format github
         bundle exec rake spec
