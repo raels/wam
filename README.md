@@ -3,16 +3,11 @@
 A Ruby Implementation of Warren's Abstract Machine, as described by the work entitled "Warren's Abstract Machine: A Tutorial Reconstruction." (WAMATR)
 
 
-[![Build Status](https://github.com/raels/wam/actions/workflows/main.yml/badge.svg)  
-[![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop)  
-[![Ruby Style Guide](https://img.shields.io/badge/code_style-community-brightgreen.svg)](https://rubystyle.guide)
+![Build Status](https://github.com/raels/wam/actions/workflows/main.yml/badge.svg)  [![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop)  [![Ruby Style Guide](https://img.shields.io/badge/code_style-community-brightgreen.svg)](https://rubystyle.guide)
 
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/05e5706985362b311221/maintainability)](https://codeclimate.com/github/raels/wam/maintainability)  
+[![Maintainability](https://api.codeclimate.com/v1/badges/05e5706985362b311221/maintainability)](https://codeclimate.com/github/raels/wam/maintainability)  [![Test Coverage](https://api.codeclimate.com/v1/badges/05e5706985362b311221/test_coverage)](https://codeclimate.com/github/raels/wam/test_coverage)
 
-[![Test Coverage](https://api.codeclimate.com/v1/badges/05e5706985362b311221/test_coverage)](https://codeclimate.com/github/raels/wam/test_coverage)
-
-[![Test Coverage](https://api.codeclimate.com/v1/badges/05e5706985362b311221/test_coverage)](https://codeclimate.com/github/raels/wam/test_coverage)
 ## Installation
 
 Add this line to your application's Gemfile using your favorite editor:
