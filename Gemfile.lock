@@ -102,7 +102,7 @@ DEPENDENCIES
   rake (~> 13.0)
   reek (~> 6.1)
   rspec (~> 3.0)
-  rubocop (~> 1.7)
+  rubocop (~> 1.29.0)
   rubocop-rake
   rubocop-rspec
   simplecov
